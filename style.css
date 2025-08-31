@@ -1,0 +1,81 @@
+/* Reset default margin, padding, and border */
+body, header, h1, h2, p, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Background, font, and global layout */
+body {
+    background-color: #f0f4f8; /* Soft snow-like blue/gray */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #222; /* Sharp, clean text color */
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* Header style */
+header {
+    background-color: #002f4b; /* Deep alpine blue */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Main content container */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings */
+h1, h2 {
+    color: #002f4b;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #f8f9f9;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', serif;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Lists */
+ul {
+    list-style: square;
+    margin-left: 30px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+/* Captions */
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+}
